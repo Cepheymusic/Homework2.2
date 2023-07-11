@@ -6,7 +6,7 @@ public class Truck extends MotorFleet {
         System.out.println("Проверяем прицеп");
     }
     @Override
-    public void check() {
+    public void testFleet() {
         super.testFleet();
         testTrailer();
     }

@@ -1,3 +1,3 @@
 public interface Check {
-    public void check(Fleet fleets);
+    public void check1(Fleet fleets);
 }

@@ -1,7 +1,5 @@
 public class ServiceStation implements Check {
-    public void check(Fleet fleets) {
+    public void check1(Fleet fleets) {
     fleets.testFleet();
     }
 }
-
-

@@ -7,12 +7,11 @@ public class Main {
         Bicycle bicycle = new Bicycle("bicycle1", 2);
         Bicycle bicycle2 = new Bicycle("bicycle2",2);
         ServiceStation station = new ServiceStation();
-
-//        station.check(car, null, null);
-//        station.check(car2, null, null);
-//        station.check(null, null, truck);
-//        station.check(null, null, truck2);
-//        station.check(null, bicycle, null);
-//        station.check(null, bicycle2, null);
+        station.check1(car);
+        station.check1(car2);
+        station.check1(truck);
+        station.check1(truck2);
+        station.check1(bicycle);
+        station.check1(bicycle2);
     }
 }

@@ -1,11 +1,10 @@
-public class Fleet {
+public abstract class Fleet {
     private String modelName;
     private int wheelsCount;
     public Fleet(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
-
     public String getModelName() {
         return modelName;
     }
